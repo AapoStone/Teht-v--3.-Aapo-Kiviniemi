@@ -30,7 +30,9 @@ nav {
   border: 3px solid #d76f0a;
   color: #d76f0a;
 }
-
+h3{
+    font-size: 2em;
+}
 button {
   margin: 1em;
   width: 6em;
@@ -65,10 +67,10 @@ p {
 #kartta {
   grid-column: 4/5;
   grid-row: 3/5;
-  border: solid 3px black;
+  
 }
 
-@media (max-width: 1645px) {
+@media (max-width: 1795px) {
   #kartta {
     grid-column: 5/5;
     grid-row: 3/3;
@@ -79,7 +81,7 @@ p {
   }
 }
 
-@media (max-width: 1253px) {
+@media (max-width: 1395px) {
   #kartta {
     grid-column: 6/6;
     grid-row: 3/3;
@@ -89,10 +91,14 @@ p {
     grid-row: 3/3;
   }
 }
-@media (max-width: 1067px) {
+@media (max-width: 1129px) {
   #kartta {
     grid-column: 3/3;
     grid-row: 4/4;
+  }
+  #tiedot {
+    grid-column: 2/7;
+    grid-row: 3/3;
   }
 }
 @media (max-width: 765px) {
@@ -108,5 +114,10 @@ p {
   p {
     display: block;
     margin: 0;
+  }
+  #keski {
+    grid-column: 2/4;
+    grid-row: 2/2;
+    font-size: 1em;
   }
 }
