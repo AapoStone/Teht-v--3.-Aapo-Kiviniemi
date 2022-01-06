@@ -19,7 +19,7 @@ function rovaniemi() {
   xmlhttp.onreadystatechange = function () {
     if (xmlhttp.readyState === 4 && xmlhttp.status === 200) {
       let weatherObject = JSON.parse(xmlhttp.response);
-      //Add weather info
+    //Add weather info
       document.getElementById("main").innerHTML = weatherObject.weather[0].main;
       document.getElementById("description").innerHTML =
         weatherObject.weather[0].description;
