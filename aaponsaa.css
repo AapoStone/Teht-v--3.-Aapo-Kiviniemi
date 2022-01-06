@@ -30,8 +30,11 @@ nav {
   border: 3px solid #d76f0a;
   color: #d76f0a;
 }
-h3{
+td:last-child{
     font-size: 2em;
+}
+h3{
+    font-size: 3em;
 }
 button {
   margin: 1em;
